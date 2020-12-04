@@ -2,7 +2,7 @@ import java.math.BigInteger;
 
 class AddThread extends Thread {
 	private int bound;
-	private BigInteger result;
+	private BigInteger result; // just to say that Threads aren't really the best ones
 
 	AddThread(int bound) {
 		this.bound = bound;
