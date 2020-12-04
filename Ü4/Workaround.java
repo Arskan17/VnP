@@ -53,6 +53,7 @@ public class Workaround {
 		try {
 			addThread.join(); // blockiert bis Thread beendet ist
 			multThread.join(); // blockiert bis Thread beendet ist
+			//try to understand these
 
 			System.out.println("Ergebnis der Addition: " + addThread.getResult());
 
